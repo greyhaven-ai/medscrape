@@ -22,7 +22,7 @@ export function Login() {
 
     if (email === USER_EMAIL && password === USER_PASSWORD) {
       document.cookie = 'isLoggedIn=true; path=/'
-      router.push('/chat')
+      router.push('/generative-chat')
     } else {
       alert('Invalid credentials')
     }
