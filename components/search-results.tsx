@@ -36,6 +36,9 @@ export function SearchResults({ results }: SearchResultsProps) {
                         new URL(result.url).hostname
                       }`}
                       alt={result.author}
+                      onError={e =>
+                        (e.currentTarget.src = '/public/medscrape-avatar.png')
+                      }
                     />
                     <AvatarFallback>
                       {new URL(result.url).hostname[0]}
