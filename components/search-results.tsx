@@ -36,10 +36,9 @@ export function SearchResults({ results }: SearchResultsProps) {
                         new URL(result.url).hostname
                       }`}
                       alt={result.author}
-                      onError={e => (e.currentTarget.style.display = 'none')}
                     />
                     <AvatarFallback>
-                      {new URL(result.url).hostname?.[0] ?? '?'}
+                      {new URL(result.url).hostname[0]}
                     </AvatarFallback>
                   </Avatar>
                   <div className="text-xs opacity-60 truncate">
