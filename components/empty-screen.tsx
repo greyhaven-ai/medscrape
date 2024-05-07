@@ -3,24 +3,20 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'What is the Texas Hip and Knee Conference?',
-    message: 'What is the Texas Hip and Knee Conference?'
+    heading:
+      'What are the best approaches to treating antibiotic-resistant infections?',
+    message:
+      'What are the best approaches to treating antibiotic-resistant infections?'
   },
   {
     heading:
-      'What procedures does the Texas Hip and Knee Center specialize in?',
-    message: 'What procedures does the Texas Hip and Knee Center specialize in?'
+      'What factors influence success rates in joint replacement surgery?',
+    message:
+      'What factors influence success rates in joint replacement surgery?'
   },
   {
-    heading: 'Does TCU medical school put an emphasis on primary care?',
-    message:
-      'According to their website, does TCU medical school put an emphasis on primary care?'
-  },
-  {
-    heading:
-      'Does TCU medical school offer an orthopedic clerkship for its students?',
-    message:
-      'According to their website, does TCU medical school offer an orthopedic clerkship for its students?'
+    heading: 'Describe the mechanism of action of SGLT2 inhibitors',
+    message: 'Describe the mechanism of action of SGLT2 inhibitors'
   }
 ]
 export function EmptyScreen({
